@@ -14,9 +14,9 @@ public class MainWindow extends JFrame {
     private Game game;
     private Timer timer;
     private Sprite[] sprites;
-    private int width;
-    private int height;
-    private int fps;
+    private final int width;
+    private final int height;
+    private final int fps;
     private int record;
 
     public MainWindow(int width, int height, int fps) throws HeadlessException {

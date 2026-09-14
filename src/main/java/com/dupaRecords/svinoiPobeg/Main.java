@@ -7,7 +7,7 @@ public class Main {
 
     static void main(String[] args) {
         parseArgs(args);
-        MainWindow window = new MainWindow(width, height, fps);
+        new MainWindow(width, height, fps);
     }
 
     private static void parseArgs(String[] args) {
